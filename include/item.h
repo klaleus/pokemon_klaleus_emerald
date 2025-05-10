@@ -13,7 +13,7 @@ struct Item
     u16 itemId;
     u16 price;
     u8 holdEffect;
-    u8 holdEffectParam;
+    u16 holdEffectParam;
     const u8 *description;
     u8 importance;
     bool8 registrability; // unused
